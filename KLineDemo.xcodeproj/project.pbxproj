@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B6F61D2018E8E40025AD05 /* SZKLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B6F61C2018E8E40025AD05 /* SZKLine.m */; };
+		01B6F6202018EA020025AD05 /* SZKLineMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B6F61F2018EA020025AD05 /* SZKLineMainView.m */; };
+		01B6F6252018EFD30025AD05 /* SZKLineMAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B6F6242018EFD30025AD05 /* SZKLineMAView.m */; };
+		01B6F62C2018F1370025AD05 /* SZKLineAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B6F62B2018F1370025AD05 /* SZKLineAccessory.m */; };
+		01B6F6302018F23B0025AD05 /* SZKLineAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B6F62F2018F23B0025AD05 /* SZKLineAccessoryView.m */; };
+		01B6F6342018F4650025AD05 /* SZKLineAccessoryMAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B6F6332018F4650025AD05 /* SZKLineAccessoryMAView.m */; };
+		01B6F6372018F5760025AD05 /* SZKLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B6F6362018F5760025AD05 /* SZKLineView.m */; };
+		16E499EA967654F66ABFD53E /* libPods-KLineDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F64A3ED5C5528A7A1C07BD40 /* libPods-KLineDemoUITests.a */; };
+		1F05C685C46EE28E4F7D6085 /* libPods-KLineDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D01EF75890F7985DACF3B1B /* libPods-KLineDemo.a */; };
 		E58D14D4201880330012D8DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D14D3201880330012D8DF /* AppDelegate.m */; };
 		E58D14D7201880330012D8DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D14D6201880330012D8DF /* ViewController.m */; };
 		E58D14DA201880330012D8DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58D14D8201880330012D8DF /* Main.storyboard */; };
@@ -15,6 +24,19 @@
 		E58D14E2201880330012D8DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D14E1201880330012D8DF /* main.m */; };
 		E58D14EC201880330012D8DF /* KLineDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D14EB201880330012D8DF /* KLineDemoTests.m */; };
 		E58D14F7201880330012D8DF /* KLineDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D14F6201880330012D8DF /* KLineDemoUITests.m */; };
+		E58D152820188EF20012D8DF /* SZKLineGlobalVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D152720188EF20012D8DF /* SZKLineGlobalVariable.m */; };
+		E58D152B201891B00012D8DF /* UIColor+SZKLine.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D152A201891B00012D8DF /* UIColor+SZKLine.m */; };
+		E58D152F2018932E0012D8DF /* SZKLineGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D152E2018932E0012D8DF /* SZKLineGroupModel.m */; };
+		E58D1532201893450012D8DF /* SZKLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D1531201893450012D8DF /* SZKLineModel.m */; };
+		E58D1535201893580012D8DF /* SZKLinePositionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D1534201893580012D8DF /* SZKLinePositionModel.m */; };
+		E58D1538201893700012D8DF /* SZKLineVolumePositionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D1537201893700012D8DF /* SZKLineVolumePositionModel.m */; };
+		E58D153C2018985F0012D8DF /* SZKLineSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D153B2018985F0012D8DF /* SZKLineSegmentView.m */; };
+		E58D15402018ADBF0012D8DF /* SZKLineRightView.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D153F2018ADBF0012D8DF /* SZKLineRightView.m */; };
+		E58D15462018AEC70012D8DF /* SZVolumeMAView.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D15452018AEC70012D8DF /* SZVolumeMAView.m */; };
+		E58D154A2018AF8F0012D8DF /* SZKLineVolum.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D15492018AF8F0012D8DF /* SZKLineVolum.m */; };
+		E58D154D2018AFA40012D8DF /* SZKLineVolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D154C2018AFA40012D8DF /* SZKLineVolumeView.m */; };
+		E58D15512018B2040012D8DF /* SZMALine.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D15502018B2040012D8DF /* SZMALine.m */; };
+		E90FF3D9960264E0CFB723C0 /* libPods-KLineDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16CA5BEE42B5DCEFAE383559 /* libPods-KLineDemoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +57,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01B6F61B2018E8E40025AD05 /* SZKLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLine.h; sourceTree = "<group>"; };
+		01B6F61C2018E8E40025AD05 /* SZKLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLine.m; sourceTree = "<group>"; };
+		01B6F61E2018EA020025AD05 /* SZKLineMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineMainView.h; sourceTree = "<group>"; };
+		01B6F61F2018EA020025AD05 /* SZKLineMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineMainView.m; sourceTree = "<group>"; };
+		01B6F6232018EFD30025AD05 /* SZKLineMAView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineMAView.h; sourceTree = "<group>"; };
+		01B6F6242018EFD30025AD05 /* SZKLineMAView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineMAView.m; sourceTree = "<group>"; };
+		01B6F62A2018F1370025AD05 /* SZKLineAccessory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineAccessory.h; sourceTree = "<group>"; };
+		01B6F62B2018F1370025AD05 /* SZKLineAccessory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineAccessory.m; sourceTree = "<group>"; };
+		01B6F62E2018F23B0025AD05 /* SZKLineAccessoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineAccessoryView.h; sourceTree = "<group>"; };
+		01B6F62F2018F23B0025AD05 /* SZKLineAccessoryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineAccessoryView.m; sourceTree = "<group>"; };
+		01B6F6322018F4650025AD05 /* SZKLineAccessoryMAView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineAccessoryMAView.h; sourceTree = "<group>"; };
+		01B6F6332018F4650025AD05 /* SZKLineAccessoryMAView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineAccessoryMAView.m; sourceTree = "<group>"; };
+		01B6F6352018F5760025AD05 /* SZKLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineView.h; sourceTree = "<group>"; };
+		01B6F6362018F5760025AD05 /* SZKLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineView.m; sourceTree = "<group>"; };
+		073380F69D78CAAE6A124297 /* Pods-KLineDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLineDemo/Pods-KLineDemo.release.xcconfig"; sourceTree = "<group>"; };
+		10AE5A7045414DCFBD8D12AD /* Pods-KLineDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLineDemoTests/Pods-KLineDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		16CA5BEE42B5DCEFAE383559 /* libPods-KLineDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KLineDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A08D61D11E40AA71EFA7DA /* Pods-KLineDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLineDemoUITests/Pods-KLineDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D01EF75890F7985DACF3B1B /* libPods-KLineDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KLineDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		724286821BBC62D8CF14E62B /* Pods-KLineDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLineDemoUITests/Pods-KLineDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7BE1C308C347DA73331C2D81 /* Pods-KLineDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLineDemoTests/Pods-KLineDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6AEE4E8B053F65F76730E54 /* Pods-KLineDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLineDemo/Pods-KLineDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E58D14CF201880330012D8DF /* KLineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58D14D2201880330012D8DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E58D14D3201880330012D8DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +95,32 @@
 		E58D14F2201880330012D8DF /* KLineDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLineDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58D14F6201880330012D8DF /* KLineDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLineDemoUITests.m; sourceTree = "<group>"; };
 		E58D14F8201880330012D8DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E58D1509201883190012D8DF /* SZKLineConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineConstant.h; sourceTree = "<group>"; };
+		E58D152620188EF20012D8DF /* SZKLineGlobalVariable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineGlobalVariable.h; sourceTree = "<group>"; };
+		E58D152720188EF20012D8DF /* SZKLineGlobalVariable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineGlobalVariable.m; sourceTree = "<group>"; };
+		E58D1529201891B00012D8DF /* UIColor+SZKLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+SZKLine.h"; sourceTree = "<group>"; };
+		E58D152A201891B00012D8DF /* UIColor+SZKLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SZKLine.m"; sourceTree = "<group>"; };
+		E58D152D2018932E0012D8DF /* SZKLineGroupModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineGroupModel.h; sourceTree = "<group>"; };
+		E58D152E2018932E0012D8DF /* SZKLineGroupModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineGroupModel.m; sourceTree = "<group>"; };
+		E58D1530201893450012D8DF /* SZKLineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineModel.h; sourceTree = "<group>"; };
+		E58D1531201893450012D8DF /* SZKLineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineModel.m; sourceTree = "<group>"; };
+		E58D1533201893580012D8DF /* SZKLinePositionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLinePositionModel.h; sourceTree = "<group>"; };
+		E58D1534201893580012D8DF /* SZKLinePositionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLinePositionModel.m; sourceTree = "<group>"; };
+		E58D1536201893700012D8DF /* SZKLineVolumePositionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineVolumePositionModel.h; sourceTree = "<group>"; };
+		E58D1537201893700012D8DF /* SZKLineVolumePositionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineVolumePositionModel.m; sourceTree = "<group>"; };
+		E58D153A2018985F0012D8DF /* SZKLineSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineSegmentView.h; sourceTree = "<group>"; };
+		E58D153B2018985F0012D8DF /* SZKLineSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineSegmentView.m; sourceTree = "<group>"; };
+		E58D153E2018ADBF0012D8DF /* SZKLineRightView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineRightView.h; sourceTree = "<group>"; };
+		E58D153F2018ADBF0012D8DF /* SZKLineRightView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineRightView.m; sourceTree = "<group>"; };
+		E58D15442018AEC70012D8DF /* SZVolumeMAView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZVolumeMAView.h; sourceTree = "<group>"; };
+		E58D15452018AEC70012D8DF /* SZVolumeMAView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZVolumeMAView.m; sourceTree = "<group>"; };
+		E58D15482018AF8F0012D8DF /* SZKLineVolum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineVolum.h; sourceTree = "<group>"; };
+		E58D15492018AF8F0012D8DF /* SZKLineVolum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineVolum.m; sourceTree = "<group>"; };
+		E58D154B2018AFA40012D8DF /* SZKLineVolumeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineVolumeView.h; sourceTree = "<group>"; };
+		E58D154C2018AFA40012D8DF /* SZKLineVolumeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineVolumeView.m; sourceTree = "<group>"; };
+		E58D154F2018B2040012D8DF /* SZMALine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZMALine.h; sourceTree = "<group>"; };
+		E58D15502018B2040012D8DF /* SZMALine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZMALine.m; sourceTree = "<group>"; };
+		F64A3ED5C5528A7A1C07BD40 /* libPods-KLineDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KLineDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F05C685C46EE28E4F7D6085 /* libPods-KLineDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90FF3D9960264E0CFB723C0 /* libPods-KLineDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +144,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16E499EA967654F66ABFD53E /* libPods-KLineDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B6F6222018EFAD0025AD05 /* KLine_MAView */ = {
+			isa = PBXGroup;
+			children = (
+				01B6F6232018EFD30025AD05 /* SZKLineMAView.h */,
+				01B6F6242018EFD30025AD05 /* SZKLineMAView.m */,
+			);
+			path = KLine_MAView;
+			sourceTree = "<group>";
+		};
+		01B6F6262018F0C20025AD05 /* AccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				01B6F62A2018F1370025AD05 /* SZKLineAccessory.h */,
+				01B6F62B2018F1370025AD05 /* SZKLineAccessory.m */,
+				01B6F62E2018F23B0025AD05 /* SZKLineAccessoryView.h */,
+				01B6F62F2018F23B0025AD05 /* SZKLineAccessoryView.m */,
+			);
+			path = AccessoryView;
+			sourceTree = "<group>";
+		};
+		01B6F6312018F4170025AD05 /* AccessoryView_MAVIew */ = {
+			isa = PBXGroup;
+			children = (
+				01B6F6322018F4650025AD05 /* SZKLineAccessoryMAView.h */,
+				01B6F6332018F4650025AD05 /* SZKLineAccessoryMAView.m */,
+			);
+			path = AccessoryView_MAVIew;
+			sourceTree = "<group>";
+		};
+		5EC2C115C9E03CF91F3AF42D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6AEE4E8B053F65F76730E54 /* Pods-KLineDemo.debug.xcconfig */,
+				073380F69D78CAAE6A124297 /* Pods-KLineDemo.release.xcconfig */,
+				7BE1C308C347DA73331C2D81 /* Pods-KLineDemoTests.debug.xcconfig */,
+				10AE5A7045414DCFBD8D12AD /* Pods-KLineDemoTests.release.xcconfig */,
+				35A08D61D11E40AA71EFA7DA /* Pods-KLineDemoUITests.debug.xcconfig */,
+				724286821BBC62D8CF14E62B /* Pods-KLineDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		656B26448749F82C52F93645 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D01EF75890F7985DACF3B1B /* libPods-KLineDemo.a */,
+				16CA5BEE42B5DCEFAE383559 /* libPods-KLineDemoTests.a */,
+				F64A3ED5C5528A7A1C07BD40 /* libPods-KLineDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E58D14C6201880330012D8DF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +210,8 @@
 				E58D14EA201880330012D8DF /* KLineDemoTests */,
 				E58D14F5201880330012D8DF /* KLineDemoUITests */,
 				E58D14D0201880330012D8DF /* Products */,
+				5EC2C115C9E03CF91F3AF42D /* Pods */,
+				656B26448749F82C52F93645 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +228,7 @@
 		E58D14D1201880330012D8DF /* KLineDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E58D1504201880D60012D8DF /* Coin_KLine */,
 				E58D14D2201880330012D8DF /* AppDelegate.h */,
 				E58D14D3201880330012D8DF /* AppDelegate.m */,
 				E58D14D5201880330012D8DF /* ViewController.h */,
@@ -132,6 +260,111 @@
 			path = KLineDemoUITests;
 			sourceTree = "<group>";
 		};
+		E58D1504201880D60012D8DF /* Coin_KLine */ = {
+			isa = PBXGroup;
+			children = (
+				E58D1506201881000012D8DF /* KLine */,
+				E58D1505201880F20012D8DF /* Config */,
+			);
+			path = Coin_KLine;
+			sourceTree = "<group>";
+		};
+		E58D1505201880F20012D8DF /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E58D1509201883190012D8DF /* SZKLineConstant.h */,
+				E58D152620188EF20012D8DF /* SZKLineGlobalVariable.h */,
+				E58D152720188EF20012D8DF /* SZKLineGlobalVariable.m */,
+				E58D1529201891B00012D8DF /* UIColor+SZKLine.h */,
+				E58D152A201891B00012D8DF /* UIColor+SZKLine.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		E58D1506201881000012D8DF /* KLine */ = {
+			isa = PBXGroup;
+			children = (
+				01B6F6312018F4170025AD05 /* AccessoryView_MAVIew */,
+				01B6F6262018F0C20025AD05 /* AccessoryView */,
+				01B6F6222018EFAD0025AD05 /* KLine_MAView */,
+				E58D154E2018B1E90012D8DF /* MainLineView */,
+				E58D15472018AF650012D8DF /* VoumeView */,
+				E58D15412018AE8D0012D8DF /* Volume_MAView */,
+				E58D153D2018A6A00012D8DF /* PriceView */,
+				E58D15392018978A0012D8DF /* SegmentView */,
+				E58D152C201892FE0012D8DF /* Model */,
+				01B6F6352018F5760025AD05 /* SZKLineView.h */,
+				01B6F6362018F5760025AD05 /* SZKLineView.m */,
+			);
+			path = KLine;
+			sourceTree = "<group>";
+		};
+		E58D152C201892FE0012D8DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E58D152D2018932E0012D8DF /* SZKLineGroupModel.h */,
+				E58D152E2018932E0012D8DF /* SZKLineGroupModel.m */,
+				E58D1530201893450012D8DF /* SZKLineModel.h */,
+				E58D1531201893450012D8DF /* SZKLineModel.m */,
+				E58D1533201893580012D8DF /* SZKLinePositionModel.h */,
+				E58D1534201893580012D8DF /* SZKLinePositionModel.m */,
+				E58D1536201893700012D8DF /* SZKLineVolumePositionModel.h */,
+				E58D1537201893700012D8DF /* SZKLineVolumePositionModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E58D15392018978A0012D8DF /* SegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				E58D153A2018985F0012D8DF /* SZKLineSegmentView.h */,
+				E58D153B2018985F0012D8DF /* SZKLineSegmentView.m */,
+			);
+			path = SegmentView;
+			sourceTree = "<group>";
+		};
+		E58D153D2018A6A00012D8DF /* PriceView */ = {
+			isa = PBXGroup;
+			children = (
+				E58D153E2018ADBF0012D8DF /* SZKLineRightView.h */,
+				E58D153F2018ADBF0012D8DF /* SZKLineRightView.m */,
+			);
+			path = PriceView;
+			sourceTree = "<group>";
+		};
+		E58D15412018AE8D0012D8DF /* Volume_MAView */ = {
+			isa = PBXGroup;
+			children = (
+				E58D15442018AEC70012D8DF /* SZVolumeMAView.h */,
+				E58D15452018AEC70012D8DF /* SZVolumeMAView.m */,
+			);
+			path = Volume_MAView;
+			sourceTree = "<group>";
+		};
+		E58D15472018AF650012D8DF /* VoumeView */ = {
+			isa = PBXGroup;
+			children = (
+				E58D15482018AF8F0012D8DF /* SZKLineVolum.h */,
+				E58D15492018AF8F0012D8DF /* SZKLineVolum.m */,
+				E58D154B2018AFA40012D8DF /* SZKLineVolumeView.h */,
+				E58D154C2018AFA40012D8DF /* SZKLineVolumeView.m */,
+			);
+			path = VoumeView;
+			sourceTree = "<group>";
+		};
+		E58D154E2018B1E90012D8DF /* MainLineView */ = {
+			isa = PBXGroup;
+			children = (
+				E58D154F2018B2040012D8DF /* SZMALine.h */,
+				E58D15502018B2040012D8DF /* SZMALine.m */,
+				01B6F61B2018E8E40025AD05 /* SZKLine.h */,
+				01B6F61C2018E8E40025AD05 /* SZKLine.m */,
+				01B6F61E2018EA020025AD05 /* SZKLineMainView.h */,
+				01B6F61F2018EA020025AD05 /* SZKLineMainView.m */,
+			);
+			path = MainLineView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +372,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E58D14FB201880330012D8DF /* Build configuration list for PBXNativeTarget "KLineDemo" */;
 			buildPhases = (
+				F75BE60645142A6537FFDBC5 /* [CP] Check Pods Manifest.lock */,
 				E58D14CB201880330012D8DF /* Sources */,
 				E58D14CC201880330012D8DF /* Frameworks */,
 				E58D14CD201880330012D8DF /* Resources */,
+				4EBC52CF910FF62FFA841047 /* [CP] Embed Pods Frameworks */,
+				9BB7BCE60E5936A6D4E5C8B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +392,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E58D14FE201880330012D8DF /* Build configuration list for PBXNativeTarget "KLineDemoTests" */;
 			buildPhases = (
+				A69998BEABA6DA83413F754B /* [CP] Check Pods Manifest.lock */,
 				E58D14E3201880330012D8DF /* Sources */,
 				E58D14E4201880330012D8DF /* Frameworks */,
 				E58D14E5201880330012D8DF /* Resources */,
+				8EC64E35FE203656AC52FAB1 /* [CP] Embed Pods Frameworks */,
+				BE9EAE3291D4182DD280A0A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +413,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E58D1501201880330012D8DF /* Build configuration list for PBXNativeTarget "KLineDemoUITests" */;
 			buildPhases = (
+				ACC09E163C9A4D758F2502B8 /* [CP] Check Pods Manifest.lock */,
 				E58D14EE201880330012D8DF /* Sources */,
 				E58D14EF201880330012D8DF /* Frameworks */,
 				E58D14F0201880330012D8DF /* Resources */,
+				C2CF92CCD90DAEBE4189B661 /* [CP] Embed Pods Frameworks */,
+				37240196FBBDDB5B9738D3B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +502,180 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37240196FBBDDB5B9738D3B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLineDemoUITests/Pods-KLineDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EBC52CF910FF62FFA841047 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLineDemo/Pods-KLineDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EC64E35FE203656AC52FAB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLineDemoTests/Pods-KLineDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BB7BCE60E5936A6D4E5C8B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLineDemo/Pods-KLineDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A69998BEABA6DA83413F754B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLineDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACC09E163C9A4D758F2502B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLineDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE9EAE3291D4182DD280A0A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLineDemoTests/Pods-KLineDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2CF92CCD90DAEBE4189B661 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLineDemoUITests/Pods-KLineDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F75BE60645142A6537FFDBC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLineDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E58D14CB201880330012D8DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B6F6302018F23B0025AD05 /* SZKLineAccessoryView.m in Sources */,
+				E58D152F2018932E0012D8DF /* SZKLineGroupModel.m in Sources */,
+				E58D15462018AEC70012D8DF /* SZVolumeMAView.m in Sources */,
+				E58D1532201893450012D8DF /* SZKLineModel.m in Sources */,
+				01B6F6342018F4650025AD05 /* SZKLineAccessoryMAView.m in Sources */,
+				E58D154D2018AFA40012D8DF /* SZKLineVolumeView.m in Sources */,
+				01B6F61D2018E8E40025AD05 /* SZKLine.m in Sources */,
+				01B6F62C2018F1370025AD05 /* SZKLineAccessory.m in Sources */,
+				E58D15512018B2040012D8DF /* SZMALine.m in Sources */,
+				01B6F6372018F5760025AD05 /* SZKLineView.m in Sources */,
 				E58D14D7201880330012D8DF /* ViewController.m in Sources */,
+				E58D154A2018AF8F0012D8DF /* SZKLineVolum.m in Sources */,
+				E58D152820188EF20012D8DF /* SZKLineGlobalVariable.m in Sources */,
 				E58D14E2201880330012D8DF /* main.m in Sources */,
+				01B6F6202018EA020025AD05 /* SZKLineMainView.m in Sources */,
+				E58D15402018ADBF0012D8DF /* SZKLineRightView.m in Sources */,
+				E58D152B201891B00012D8DF /* UIColor+SZKLine.m in Sources */,
+				E58D1538201893700012D8DF /* SZKLineVolumePositionModel.m in Sources */,
 				E58D14D4201880330012D8DF /* AppDelegate.m in Sources */,
+				01B6F6252018EFD30025AD05 /* SZKLineMAView.m in Sources */,
+				E58D1535201893580012D8DF /* SZKLinePositionModel.m in Sources */,
+				E58D153C2018985F0012D8DF /* SZKLineSegmentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +836,7 @@
 		};
 		E58D14FC201880330012D8DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AEE4E8B053F65F76730E54 /* Pods-KLineDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +850,7 @@
 		};
 		E58D14FD201880330012D8DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 073380F69D78CAAE6A124297 /* Pods-KLineDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +864,7 @@
 		};
 		E58D14FF201880330012D8DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE1C308C347DA73331C2D81 /* Pods-KLineDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +879,7 @@
 		};
 		E58D1500201880330012D8DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10AE5A7045414DCFBD8D12AD /* Pods-KLineDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +894,7 @@
 		};
 		E58D1502201880330012D8DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A08D61D11E40AA71EFA7DA /* Pods-KLineDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KLineDemoUITests/Info.plist;
@@ -495,6 +908,7 @@
 		};
 		E58D1503201880330012D8DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724286821BBC62D8CF14E62B /* Pods-KLineDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KLineDemoUITests/Info.plist;
