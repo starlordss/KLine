@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-@class SZLineModel;
+@class SZKLineModel;
 @interface SZKLineMAView : UIView
 +(instancetype)view;
 
--(void)maProfileWithModel:(SZLineModel *)model;
+-(void)maProfileWithModel:(SZKLineModel *)model;
 @end

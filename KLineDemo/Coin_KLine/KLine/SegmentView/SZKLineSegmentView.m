@@ -44,14 +44,17 @@ static NSInteger const SZKLineSegmentStartTag = 2000;
 }
 
 #pragma mark - 指示器视图
-- (UIView *)indicatorView {
-    if (!_indicatorView) {
+- (UIView *)indicatorView
+{
+    if(!_indicatorView)
+    {
         _indicatorView = [UIView new];
         _indicatorView.backgroundColor = [UIColor assistBackgroundColor];
+        
         NSArray *titleArr = @[@"MACD",@"KDJ",@"关闭",@"MA",@"EMA",@"BOLL",@"关闭"];
         __block UIButton *preBtn;
         [titleArr enumerateObjectsUsingBlock:^(NSString*  _Nonnull title, NSUInteger idx, BOOL * _Nonnull stop) {
-            UIButton *btn = [UIButton new];
+            UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
             [btn setTitleColor:[UIColor mainTextColor] forState:UIControlStateNormal];
             [btn setTitleColor:[UIColor ma30Color] forState:UIControlStateSelected];
             btn.titleLabel.font = [UIFont systemFontOfSize:13];
@@ -59,11 +62,11 @@ static NSInteger const SZKLineSegmentStartTag = 2000;
             [btn addTarget:self action:@selector(event_segmentButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
             [btn setTitle:title forState:UIControlStateNormal];
             [_indicatorView addSubview:btn];
+            
             [btn mas_makeConstraints:^(MASConstraintMaker *make) {
                 
-                make.height.equalTo(_indicatorView);
                 make.width.equalTo(_indicatorView).multipliedBy(1.0f/titleArr.count);
-                make.left.equalTo(_indicatorView);
+                make.height.top.equalTo(_indicatorView);
                 if(preBtn)
                 {
                     make.leading.equalTo(preBtn.mas_trailing);
@@ -75,11 +78,22 @@ static NSInteger const SZKLineSegmentStartTag = 2000;
             view.backgroundColor = [UIColor colorWithRed:52.f/255.f green:56.f/255.f blue:67/255.f alpha:1];
             [_indicatorView addSubview:view];
             [view mas_makeConstraints:^(MASConstraintMaker *make) {
-                make.top.bottom.equalTo(btn);
-                make.leading.equalTo(btn.mas_trailing);
+                make.top.height.equalTo(btn);
                 make.width.equalTo(@0.5);
+                make.leading.equalTo(btn.mas_trailing);
             }];
             preBtn = btn;
+        }];
+        UIButton *firstBtn = _indicatorView.subviews[0];
+        [firstBtn setSelected:YES];
+        _secondLevelSelectedBtn1 = firstBtn;
+        UIButton *firstBtn2 = _indicatorView.subviews[6];
+        [firstBtn2 setSelected:YES];
+        _secondLevelSelectedBtn2 = firstBtn2;
+        [self addSubview:_indicatorView];
+        [_indicatorView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.leading.trailing.height.equalTo(self);
+            make.bottom.equalTo(self.mas_top);
         }];
     }
     return _indicatorView;
@@ -104,9 +118,8 @@ static NSInteger const SZKLineSegmentStartTag = 2000;
         [self addSubview:btn];
         [self addSubview:view];
         [btn mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.equalTo(self.mas_left);
-            make.height.equalTo(self).multipliedBy(1.0f/count);
-            make.width.equalTo(self);
+            make.top.height.equalTo(self);
+            make.width.equalTo(self).multipliedBy(1.0f/count);
             if(preBtn)
             {
                 make.leading.equalTo(preBtn.mas_trailing).offset(0.5);
@@ -165,20 +178,15 @@ static NSInteger const SZKLineSegmentStartTag = 2000;
     if(_selectedIndex == 0 && self.indicatorView.frame.origin.x < 0)
     {
         [self.indicatorView mas_remakeConstraints:^(MASConstraintMaker *make) {
-            make.height.equalTo(self);
-            make.left.equalTo(self);
-            make.bottom.equalTo(self);
-            make.width.equalTo(self);
+            make.edges.equalTo(self);
         }];
         [UIView animateWithDuration:0.2f animations:^{
             [self layoutIfNeeded];
         }];
     } else {
         [self.indicatorView mas_remakeConstraints:^(MASConstraintMaker *make) {
-            make.height.equalTo(self);
+            make.height.bottom.width.equalTo(self);
             make.right.equalTo(self.mas_left);
-            make.bottom.equalTo(self);
-            make.width.equalTo(self);
         }];
         [UIView animateWithDuration:0.2f animations:^{
             [self layoutIfNeeded];

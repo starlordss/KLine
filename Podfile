@@ -7,6 +7,7 @@ target 'KLineDemo' do
 
   # Pods for KLineDemo
   pod 'Masonry'
+  pod 'AFNetworking'
   target 'KLineDemoTests' do
     inherit! :search_paths
     # Pods for testing

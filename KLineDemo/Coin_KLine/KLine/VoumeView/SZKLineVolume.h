@@ -10,7 +10,7 @@
 #import "SZKLineVolumePositionModel.h"
 #import "SZKLineModel.h"
 
-@interface SZKLineVolum : NSObject
+@interface SZKLineVolume : NSObject
 
 /**
  *  位置model

@@ -6,15 +6,15 @@
 //  Copyright © 2018年 Zahi. All rights reserved.
 //
 
-#import "SZKLineVolum.h"
+#import "SZKLineVolume.h"
 #import "SZKLineGlobalVariable.h"
 
-@interface SZKLineVolum ()
+@interface SZKLineVolume ()
 
 @property (nonatomic, assign) CGContextRef context;
 @end
 
-@implementation SZKLineVolum
+@implementation SZKLineVolume
 
 - (instancetype)initWithContext:(CGContextRef)context
 {

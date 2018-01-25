@@ -9,8 +9,7 @@
 
 #import "SZKLineVolumeView.h"
 #import "UIColor+SZKLine.h"
-#import <Masonry.h>
-#import "SZKLineVolum.h"
+#import "SZKLineVolume.h"
 #import "SZKLineVolumePositionModel.h"
 #import "SZKLinePositionModel.h"
 #import "SZMALine.h"
@@ -59,7 +58,7 @@
     }
     
     CGContextRef context = UIGraphicsGetCurrentContext();
-    SZKLineVolum *kLineVolume = [[SZKLineVolum alloc]initWithContext:context];
+    SZKLineVolume *kLineVolume = [[SZKLineVolume alloc]initWithContext:context];
     
     [self.needDrawKLineVolumePositionModels enumerateObjectsUsingBlock:^(SZKLineVolumePositionModel * _Nonnull volumePositionModel, NSUInteger idx, BOOL * _Nonnull stop) {
         kLineVolume.positionModel = volumePositionModel;

@@ -10,6 +10,12 @@
 
 @implementation SZKLineVolumePositionModel
 
-
++ (instancetype) modelWithStartPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint
+{
+    SZKLineVolumePositionModel *volumePositionModel = [SZKLineVolumePositionModel new];
+    volumePositionModel.StartPoint = startPoint;
+    volumePositionModel.EndPoint = endPoint;
+    return volumePositionModel;
+}
 
 @end

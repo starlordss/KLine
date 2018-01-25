@@ -33,9 +33,11 @@
 		E58D153C2018985F0012D8DF /* SZKLineSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D153B2018985F0012D8DF /* SZKLineSegmentView.m */; };
 		E58D15402018ADBF0012D8DF /* SZKLineRightView.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D153F2018ADBF0012D8DF /* SZKLineRightView.m */; };
 		E58D15462018AEC70012D8DF /* SZVolumeMAView.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D15452018AEC70012D8DF /* SZVolumeMAView.m */; };
-		E58D154A2018AF8F0012D8DF /* SZKLineVolum.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D15492018AF8F0012D8DF /* SZKLineVolum.m */; };
+		E58D154A2018AF8F0012D8DF /* SZKLineVolume.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D15492018AF8F0012D8DF /* SZKLineVolume.m */; };
 		E58D154D2018AFA40012D8DF /* SZKLineVolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D154C2018AFA40012D8DF /* SZKLineVolumeView.m */; };
 		E58D15512018B2040012D8DF /* SZMALine.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D15502018B2040012D8DF /* SZMALine.m */; };
+		E58D155420197EB50012D8DF /* SZKLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D155320197EB50012D8DF /* SZKLineChartView.m */; };
+		E58D15572019841A0012D8DF /* NetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D1555201984190012D8DF /* NetWorking.m */; };
 		E90FF3D9960264E0CFB723C0 /* libPods-KLineDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16CA5BEE42B5DCEFAE383559 /* libPods-KLineDemoTests.a */; };
 /* End PBXBuildFile section */
 
@@ -114,12 +116,16 @@
 		E58D153F2018ADBF0012D8DF /* SZKLineRightView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineRightView.m; sourceTree = "<group>"; };
 		E58D15442018AEC70012D8DF /* SZVolumeMAView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZVolumeMAView.h; sourceTree = "<group>"; };
 		E58D15452018AEC70012D8DF /* SZVolumeMAView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZVolumeMAView.m; sourceTree = "<group>"; };
-		E58D15482018AF8F0012D8DF /* SZKLineVolum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineVolum.h; sourceTree = "<group>"; };
-		E58D15492018AF8F0012D8DF /* SZKLineVolum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineVolum.m; sourceTree = "<group>"; };
+		E58D15482018AF8F0012D8DF /* SZKLineVolume.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineVolume.h; sourceTree = "<group>"; };
+		E58D15492018AF8F0012D8DF /* SZKLineVolume.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineVolume.m; sourceTree = "<group>"; };
 		E58D154B2018AFA40012D8DF /* SZKLineVolumeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineVolumeView.h; sourceTree = "<group>"; };
 		E58D154C2018AFA40012D8DF /* SZKLineVolumeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineVolumeView.m; sourceTree = "<group>"; };
 		E58D154F2018B2040012D8DF /* SZMALine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZMALine.h; sourceTree = "<group>"; };
 		E58D15502018B2040012D8DF /* SZMALine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZMALine.m; sourceTree = "<group>"; };
+		E58D155220197EB50012D8DF /* SZKLineChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKLineChartView.h; sourceTree = "<group>"; };
+		E58D155320197EB50012D8DF /* SZKLineChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKLineChartView.m; sourceTree = "<group>"; };
+		E58D1555201984190012D8DF /* NetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorking.m; sourceTree = "<group>"; };
+		E58D15562019841A0012D8DF /* NetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorking.h; sourceTree = "<group>"; };
 		F64A3ED5C5528A7A1C07BD40 /* libPods-KLineDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KLineDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -228,6 +234,8 @@
 		E58D14D1201880330012D8DF /* KLineDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E58D15562019841A0012D8DF /* NetWorking.h */,
+				E58D1555201984190012D8DF /* NetWorking.m */,
 				E58D1504201880D60012D8DF /* Coin_KLine */,
 				E58D14D2201880330012D8DF /* AppDelegate.h */,
 				E58D14D3201880330012D8DF /* AppDelegate.m */,
@@ -265,6 +273,8 @@
 			children = (
 				E58D1506201881000012D8DF /* KLine */,
 				E58D1505201880F20012D8DF /* Config */,
+				E58D155220197EB50012D8DF /* SZKLineChartView.h */,
+				E58D155320197EB50012D8DF /* SZKLineChartView.m */,
 			);
 			path = Coin_KLine;
 			sourceTree = "<group>";
@@ -344,8 +354,8 @@
 		E58D15472018AF650012D8DF /* VoumeView */ = {
 			isa = PBXGroup;
 			children = (
-				E58D15482018AF8F0012D8DF /* SZKLineVolum.h */,
-				E58D15492018AF8F0012D8DF /* SZKLineVolum.m */,
+				E58D15482018AF8F0012D8DF /* SZKLineVolume.h */,
+				E58D15492018AF8F0012D8DF /* SZKLineVolume.m */,
 				E58D154B2018AFA40012D8DF /* SZKLineVolumeView.h */,
 				E58D154C2018AFA40012D8DF /* SZKLineVolumeView.m */,
 			);
@@ -661,12 +671,14 @@
 				01B6F6342018F4650025AD05 /* SZKLineAccessoryMAView.m in Sources */,
 				E58D154D2018AFA40012D8DF /* SZKLineVolumeView.m in Sources */,
 				01B6F61D2018E8E40025AD05 /* SZKLine.m in Sources */,
+				E58D15572019841A0012D8DF /* NetWorking.m in Sources */,
 				01B6F62C2018F1370025AD05 /* SZKLineAccessory.m in Sources */,
 				E58D15512018B2040012D8DF /* SZMALine.m in Sources */,
 				01B6F6372018F5760025AD05 /* SZKLineView.m in Sources */,
 				E58D14D7201880330012D8DF /* ViewController.m in Sources */,
-				E58D154A2018AF8F0012D8DF /* SZKLineVolum.m in Sources */,
+				E58D154A2018AF8F0012D8DF /* SZKLineVolume.m in Sources */,
 				E58D152820188EF20012D8DF /* SZKLineGlobalVariable.m in Sources */,
+				E58D155420197EB50012D8DF /* SZKLineChartView.m in Sources */,
 				E58D14E2201880330012D8DF /* main.m in Sources */,
 				01B6F6202018EA020025AD05 /* SZKLineMainView.m in Sources */,
 				E58D15402018ADBF0012D8DF /* SZKLineRightView.m in Sources */,
